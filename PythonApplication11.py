@@ -1,5 +1,5 @@
 
-#from openpyxl import workbook #we are using a list of cow_ids,and a variable of total milk, keeping it simple and a list of 7 days against each cow id and a dictionary of 2 variable morning and evening to store milk,whenever the cow is yielded the total milk is updated to avoid extra computation for using loops
+#we are using a list of cow_ids,and a variable of total milk, keeping it simple and a list of 7 days against each cow id and a dictionary of 2 variable morning and evening to store milk,whenever the cow is yielded the total milk is updated to avoid extra computation for using loops
 base_id=100
 num_cows=int(input('!!!** enter number of cows : **!!! ->'))
 #initialization a dictionary of list of dictionary of list,that's a nested concept
